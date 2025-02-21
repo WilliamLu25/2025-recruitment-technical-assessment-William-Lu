@@ -1,6 +1,5 @@
 const request = require("supertest");
 
-
 describe("Task 1", () => {
   describe("POST /parse", () => {
     const getTask1 = async (inputStr) => {
